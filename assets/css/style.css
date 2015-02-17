@@ -1,0 +1,32 @@
+
+
+body {
+  min-height: 2000px;
+  padding-top: 50px;
+}
+
+.navbar-fixed-top{
+	border:0;
+	background:#eee;
+}
+
+#jumbo{
+	width:100%;
+	height:400px;
+	padding-top:80px;
+	background:#fdefba;
+	margin-bottom:30px;
+}
+
+.center{
+	text-align: center;
+}
+
+.btn{
+	background-color:#ffb510;
+	border:none;
+}
+
+.navbar{
+	border-color:transparent;
+}
