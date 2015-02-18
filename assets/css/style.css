@@ -2,7 +2,7 @@
 
 body {
   min-height: 2000px;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .navbar-fixed-top{
@@ -31,11 +31,12 @@ body {
 	border-color:transparent;
 }
 
+/* Form Style */
+
 form input{
-	background:#ccc;
-	padding:5px 10px;
+	background:#e1e1e1;
+	padding:10px 20px;
 	border:none;
-	display:block;
 }
 
 form .submit{
@@ -45,4 +46,9 @@ form .submit{
 form .submit:hover{
 	background:#555;
 	color:#fff;
+}
+
+form input:focus{
+	border:#ffb510;
+	outline:2px solid #ffb510;
 }
