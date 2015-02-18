@@ -21,13 +21,5 @@ class Main extends CI_Controller{
 
 	}
 
-		public function login(){
-		
-		//Load view
-		$this->load->view('head');
-		$this->load->view('login');
-		$this->load->view('foot');
-
-	}
 
 }

@@ -14,7 +14,7 @@
     ?>
       <p>
         <?php echo $message; ?>
-        <?php echo form_open('login/check') ?>
+        <?php echo form_open('join/check') ?>
         <label for="username">Username <span class="required">*</span></label>
         <?php echo form_input($form['username']); ?>
         <label for="password">Password <span class="required">*</span></label>

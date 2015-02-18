@@ -59,7 +59,7 @@
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="<?php echo base_url('index.php/login'); ?>">Log In</a></li>
-            <li><a href="../navbar-static-top/">Join In</a></li>
+            <li><a href="<?php echo base_url('index.php/join'); ?>">Join Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
