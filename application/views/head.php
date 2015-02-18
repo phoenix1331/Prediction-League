@@ -12,8 +12,8 @@
     <title>Prediction League</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet">
+     <link href="<?php echo base_url('assets/css/style.css'); ?>" rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>">Project name</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -58,7 +58,7 @@
             </li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Log In</a></li>
+            <li><a href="<?php echo base_url('index.php/login'); ?>">Log In</a></li>
             <li><a href="../navbar-static-top/">Join In</a></li>
           </ul>
         </div><!--/.nav-collapse -->

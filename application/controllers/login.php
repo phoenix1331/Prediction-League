@@ -3,25 +3,16 @@
 
 //Index Method
 
-class Main extends CI_Controller{
+class Login extends CI_Controller{
 
 	public function __construct()
 	{
 		parent::__construct();
 	//	$this->load->model('');
-	    $this->load->helper('url');
+	//	$this->load->helper('url');
 	}
 
-	public function index(){
-		
-		//Load view
-		$this->load->view('head');
-		$this->load->view('main');
-		$this->load->view('foot');
-
-	}
-
-		public function login(){
+		public function index(){
 		
 		//Load view
 		$this->load->view('head');
