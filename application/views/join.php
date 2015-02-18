@@ -1,4 +1,4 @@
-<div class="container center">
+<div class="container">
 
      <?php 
         $form = array(
@@ -19,7 +19,7 @@
         <?php echo form_input($form['username']); ?>
         <label for="password">Password <span class="required">*</span></label>
         <?php echo form_input($form['password']); ?>
-        <?php echo form_submit(array('name'=>'submit'), 'Submit'); ?>
+        <?php echo form_submit(array('name'=>'submit', 'class'=>'submit'), 'Submit'); ?>
         <?php echo form_close(); ?>
       </p>
 </div>
