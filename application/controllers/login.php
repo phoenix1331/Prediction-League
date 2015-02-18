@@ -9,14 +9,26 @@ class Login extends CI_Controller{
 	{
 		parent::__construct();
 	//	$this->load->model('');
-	//	$this->load->helper('url');
 	}
 
 		public function index(){
+
+		$data['message'] = 'Please log in !!';
 		
 		//Load view
 		$this->load->view('head');
-		$this->load->view('login');
+		$this->load->view('login',$data);
+		$this->load->view('foot');
+
+	}
+
+		public function check(){
+
+		$data['message'] = 'Thanks for logging in !!';
+		
+		//Load view
+		$this->load->view('head');
+		$this->load->view('login',$data);
 		$this->load->view('foot');
 
 	}
