@@ -14,6 +14,12 @@ h1{
 	background:#eee;
 }
 
+.navbar-brand img{
+	width:30px;
+	float:left;
+	margin:10px 10px 10px 0;
+}
+
 #jumbo{
 	width:100%;
 	height:400px;

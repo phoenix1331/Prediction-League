@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url(); ?>">Prediction League</a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>"> <img alt="Brand" src="<?php echo base_url('assets/img/County_Logo.gif'); ?>"> Prediction League</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
