@@ -1,10 +1,11 @@
 
 <div id="jumbo">
   <div class="container">
-     <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
-      </div>
+     <h1>Football Scores Prediction League</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, laudantium.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, ab!</p>
+        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+  </div>
 </div>
 
 <div class="container center">
