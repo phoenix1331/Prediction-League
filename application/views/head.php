@@ -9,7 +9,7 @@
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
-    <title>Prediction League</title>
+    <title>Prediction League | <?php echo $title; ?></title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url('assets/css/bootstrap.css'); ?>" rel="stylesheet">
@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<?php echo base_url(); ?>">Project name</a>
+          <a class="navbar-brand" href="<?php echo base_url(); ?>">Prediction League</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -64,3 +64,4 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+

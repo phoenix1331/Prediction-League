@@ -13,10 +13,10 @@ class Login extends CI_Controller{
 
 		public function index(){
 
-		$data['message'] = 'Please log in !!';
-		
+		$data['message'] = '';
+		$data['title'] = 'Login';		
 		//Load view
-		$this->load->view('head');
+		$this->load->view('head',$data);
 		$this->load->view('login',$data);
 		$this->load->view('foot');
 
@@ -25,9 +25,9 @@ class Login extends CI_Controller{
 		public function check(){
 
 		$data['message'] = 'Thanks for logging in !!';
-		
+		$data['title'] = 'Login';		
 		//Load view
-		$this->load->view('head');
+		$this->load->view('head',$data);
 		$this->load->view('login',$data);
 		$this->load->view('foot');
 

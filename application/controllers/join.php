@@ -13,10 +13,11 @@ class Join extends CI_Controller{
 
 		public function index(){
 
-		$data['message'] = 'Sign Up !!';
+		$data['message'] = '';
+		$data['title'] = 'Join Us';
 		
 		//Load view
-		$this->load->view('head');
+		$this->load->view('head',$data);
 		$this->load->view('join',$data);
 		$this->load->view('foot');
 
@@ -27,7 +28,7 @@ class Join extends CI_Controller{
 		$data['message'] = 'Thanks for signing up !!';
 		
 		//Load view
-		$this->load->view('head');
+		$this->load->view('head',$data);
 		$this->load->view('join',$data);
 		$this->load->view('foot');
 
