@@ -15,6 +15,30 @@ class Join extends CI_Controller{
 
 		$data['message'] = '';
 		$data['title'] = 'Join Us';
+
+		$data['form'] = array(
+          'username' => array(
+              'name' => 'username',
+              'id' => 'username',
+              'placeholder' => 'Username',
+              'autofocus'   => 'autofocus',
+              'value' => ''),
+          'password' => array(
+              'name' => 'password',
+              'id' => 'password',
+              'placeholder' => 'Password',
+              'value' => ''),
+          'passwordAgain' => array(
+              'name' => 'passwordAgain',
+              'id' => 'passwordAgain',
+              'placeholder' => 'Password Again',
+              'value' => ''),
+          'email' => array(
+              'name' => 'email',
+              'id' => 'email',
+              'placeholder' => 'email',
+              'value' => '')
+        );
 		
 		//Load view
 		$this->load->view('head',$data);

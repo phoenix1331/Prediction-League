@@ -6,33 +6,6 @@
 <div class="container main">
 
      <?php 
-        $form = array(
-          'username' => array(
-              'name' => 'username',
-              'id' => 'username',
-              'placeholder' => 'Username',
-              'autofocus'   => 'autofocus',
-              'value' => ''),
-          'password' => array(
-              'name' => 'password',
-              'id' => 'password',
-              'placeholder' => 'Password',
-              'value' => ''),
-                    'passwordAgain' => array(
-              'name' => 'passwordAgain',
-              'id' => 'passwordAgain',
-              'placeholder' => 'Password Again',
-              'value' => ''),
-              'email' => array(
-              'name' => 'email',
-              'id' => 'email',
-              'placeholder' => 'email',
-              'value' => '')
-
-
-        )
-    ?>
-     <?php 
         if(!empty($message)){ ?>
           <div class="alert alert-success alert-dismissible" role="alert">
               <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
