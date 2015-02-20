@@ -17,7 +17,19 @@
               'name' => 'password',
               'id' => 'password',
               'placeholder' => 'Password',
+              'value' => ''),
+                    'passwordAgain' => array(
+              'name' => 'passwordAgain',
+              'id' => 'passwordAgain',
+              'placeholder' => 'Password Again',
+              'value' => ''),
+              'email' => array(
+              'name' => 'email',
+              'id' => 'email',
+              'placeholder' => 'email',
               'value' => '')
+
+
         )
     ?>
      <?php 
@@ -31,6 +43,8 @@
         <?php echo form_open('login/check',array('class'=>'form-control')) ?>
         <?php echo form_input($form['username']); ?>
         <?php echo form_input($form['password']); ?>
+        <?php echo form_input($form['passwordAgain']); ?>
+        <?php echo form_input($form['email']); ?>
         <?php echo form_submit(array('name'=>'submit', 'class'=>'submit'), 'Submit'); ?>
         <?php echo form_close(); ?>
       </p>
