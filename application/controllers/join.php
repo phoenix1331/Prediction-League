@@ -15,7 +15,7 @@ class Join extends CI_Controller{
 
 		$data['message'] = '';
 		$data['title'] = 'Join Us';
-
+		//Form array
 		$data['form'] = array(
           'username' => array(
               'name' => 'username',
