@@ -25,7 +25,7 @@
     <tr>
       <td>1</td>
       <td class="name">Darren Williams</td>
-      <td>6</td>
+      <td><?php echo $table[0]['P']; ?></td>
       <td>5</td>
       <td>1</td>
       <td>0</td>

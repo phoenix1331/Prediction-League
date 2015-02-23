@@ -24,9 +24,28 @@ h1{
 }
 
 p{
-	margin:0 10px;
+
 }
 
+.center{
+	text-align: center;
+}
+
+.btn{
+	background-color:#ffb510;
+	border:none;
+}
+
+.main{
+	margin-top:30px;
+	min-height:600px;
+}
+
+/*Navigation Style*/
+
+.navbar{
+	border-color:transparent;
+}
 
 .navbar-fixed-top{
 	border:0;
@@ -52,19 +71,6 @@ p{
 
 }
 
-.center{
-	text-align: center;
-}
-
-.btn{
-	background-color:#ffb510;
-	border:none;
-}
-
-.navbar{
-	border-color:transparent;
-}
-
 .titlebar{
 	width:100%;
 	height: 80px;
@@ -73,8 +79,8 @@ p{
 
 /* Form Style */
 
-.formwrap{
-	display: block;
+form{
+	
 }
 
 form input{
@@ -83,12 +89,14 @@ form input{
 	margin:20px 0 0 0 ;
 	border:none;
 	display: block;
+	width:300px;
 }
 
 form .submit{
 	margin:20px 0 0 0;
 	background:#555;
 	color:#fff;
+	width:100px;
 }
 
 form .submit:hover{
@@ -101,20 +109,16 @@ form input:focus{
 	outline:2px solid #ffb510;
 }
 
-.main{
-	margin-top:30px;
-	min-height:600px;
-}
+/*Table Style*/
 
 table.mainTable{
 	width:100%;
-    border-spacing: 10px;
+    border-spacing: 5px;
     border-collapse: separate;
 }
 
 table.mainTable th{
 	background:rgba(253,181,21,0.6);
-	margin:2px;
 	padding:3px;
 	text-align:center;
 	color:#555;
@@ -145,7 +149,7 @@ table.mainTable tfoot td{
 	width:5%;
 }
 
-/*footer*/
+/*footer Style*/
 
 footer{
 	width: 100%;

@@ -20,7 +20,7 @@ class Join extends CI_Controller{
           'username' => array(
               'name' => 'username',
               'id' => 'username',
-              'placeholder' => 'Username',
+              'placeholder' => 'Username / Display Name',
               'autofocus'   => 'autofocus',
               'value' => ''),
           'password' => array(
