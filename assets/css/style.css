@@ -23,6 +23,10 @@ h1{
 	color:#fff;
 }
 
+p{
+	margin:0 10px;
+}
+
 
 .navbar-fixed-top{
 	border:0;
@@ -99,6 +103,46 @@ form input:focus{
 
 .main{
 	margin-top:30px;
+	min-height:600px;
+}
+
+table.mainTable{
+	width:100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+table.mainTable th{
+	background:rgba(253,181,21,0.6);
+	margin:2px;
+	padding:3px;
+	text-align:center;
+	color:#555;
+	width:5%;
+}
+
+table.mainTable th.name,
+table.mainTable tf.name,
+table.mainTable td.name{
+	width:30%;
+}
+
+table.mainTable td{
+	background:#e1e1e1;
+	margin:2px;
+	padding:3px;
+	text-align:center;
+	color:#555;
+	width:5%;
+}
+
+table.mainTable tfoot td{
+	background:#555;
+	margin:2px;
+	padding:10px;
+	text-align:center;
+	color:#555;
+	width:5%;
 }
 
 /*footer*/
