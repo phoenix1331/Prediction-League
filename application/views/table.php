@@ -25,53 +25,16 @@
     <tr>
       <td>1</td>
       <td class="name">Darren Williams</td>
-      <td><?php echo $table[0]['P']; ?></td>
-      <td>5</td>
-      <td>1</td>
-      <td>0</td>
-      <td>24</td>
-      <td>21</td>
-      <td>3</td>
-      <td>34</td>
-      <td><</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td class="name">Darren Williams</td>
-      <td>6</td>
-      <td>5</td>
-      <td>1</td>
-      <td>0</td>
-      <td>24</td>
-      <td>21</td>
-      <td>3</td>
-      <td>34</td>
-      <td><</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td class="name">Darren Williams</td>
-      <td>6</td>
-      <td>5</td>
-      <td>1</td>
-      <td>0</td>
-      <td>24</td>
-      <td>21</td>
-      <td>3</td>
-      <td>34</td>
-      <td><</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td class="name">Darren Williams</td>
-      <td>6</td>
-      <td>5</td>
-      <td>1</td>
-      <td>0</td>
-      <td>24</td>
-      <td>21</td>
-      <td>3</td>
-      <td>34</td>
+      <?php foreach($table as $item): ?>
+       <td><?php echo $item['P']; ?></td>
+       <td><?php echo $item['W']; ?></td>
+       <td><?php echo $item['L']; ?></td>
+       <td><?php echo $item['D']; ?></td>
+       <td><?php echo $item['F']; ?></td>
+       <td><?php echo $item['A']; ?></td>
+       <td><?php echo $item['GD']; ?></td>
+       <td><?php echo $item['Pts']; ?></td>
+      <?php endforeach; ?>
       <td><</td>
     </tr>
   </tbody>
@@ -92,5 +55,9 @@
   </tfoot>
 </table>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem amet totam tempore, porro, quisquam nemo repellendus dolorem odio soluta nisi corporis mollitia ducimus cupiditate blanditiis reprehenderit neque, dignissimos culpa earum.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+  Quidem amet totam tempore, porro, quisquam nemo repellendus
+  dolorem odio soluta nisi corporis mollitia ducimus cupiditate
+  blanditiis reprehenderit neque, dignissimos culpa earum.</p>
+
 </div>

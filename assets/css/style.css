@@ -156,4 +156,10 @@ footer{
 	height: 100px;
 	background:#e1e1e1;
 	margin-top: 50px;
+	bottom:0;
+}
+
+footer p.right{
+	float:right;
+	margin:10px;
 }
