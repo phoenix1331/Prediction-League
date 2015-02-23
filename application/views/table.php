@@ -22,10 +22,14 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>1</td>
-      <td class="name">Darren Williams</td>
-      <?php foreach($table as $item): ?>
+    <?php 
+      //Start outputting table data
+      $i = 1;
+      foreach($table as $item):
+    ?>
+     <tr>
+       <td><?php echo $i; ?></td>
+       <td class="name">Darren Williams</td>
        <td><?php echo $item['P']; ?></td>
        <td><?php echo $item['W']; ?></td>
        <td><?php echo $item['L']; ?></td>
@@ -34,9 +38,12 @@
        <td><?php echo $item['A']; ?></td>
        <td><?php echo $item['GD']; ?></td>
        <td><?php echo $item['Pts']; ?></td>
-      <?php endforeach; ?>
-      <td><</td>
-    </tr>
+       <td><</td>
+     </tr>
+    <?php
+      $i++;
+      endforeach;
+    ?>
   </tbody>
   <tfoot>
     <tr>

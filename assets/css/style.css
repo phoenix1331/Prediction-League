@@ -36,6 +36,10 @@ p{
 	border:none;
 }
 
+.btn-default{
+	color:#555;
+}
+
 .main{
 	margin-top:30px;
 	min-height:600px;
@@ -62,13 +66,18 @@ p{
 	width:100%;
 	height:400px;
 	padding-top:80px;
-	/* background:rgba(253,181,21,0.6); */
-	background:url('../img/jumbo.jpg');
+	text-align:center;
+	/*background-image:url('../img/jumbo.jpg');*/
+	background-color:rgba(253,181,21,0.6);
 	margin-bottom:30px;
 }
 
-#jumbo img{
+#jumbo h1{
+	
+}
 
+#jumbo p{
+	color:#555;
 }
 
 .titlebar{
@@ -138,6 +147,10 @@ table.mainTable td{
 	text-align:center;
 	color:#555;
 	width:5%;
+}
+
+table.mainTable tbody td:hover{
+	opacity:0.8;
 }
 
 table.mainTable tfoot td{
