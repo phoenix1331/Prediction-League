@@ -13,7 +13,7 @@ class Get_table extends CI_Model {
 		$this->db->select('*');
 		$this->db->from('maintable');
 		$this->db->join('user', 'user.idUser = maintable.User_idUser');
-		
+		$this->db->order_by("GD", "desc");
 		$query = $this->db->get();
 		if($query == TRUE){
 			return $query->result_array();
