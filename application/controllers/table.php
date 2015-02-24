@@ -17,7 +17,7 @@ class Table extends CI_Controller{
 		$data['table'] = $this->get_table->table();
 	 	$data['title'] = 'Table';		
 		//Load view
-		$this->load->view('head');
+		$this->load->view('head',$data);
 		$this->load->view('table', $data);
 		$this->load->view('foot');
 

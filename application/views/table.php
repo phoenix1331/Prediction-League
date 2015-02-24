@@ -29,7 +29,7 @@
     ?>
      <tr>
        <td><?php echo $i; ?></td>
-       <td class="name">Darren Williams</td>
+       <td class="name"><?php echo $item['Username']; ?></td>
        <td><?php echo $item['P']; ?></td>
        <td><?php echo $item['W']; ?></td>
        <td><?php echo $item['L']; ?></td>
