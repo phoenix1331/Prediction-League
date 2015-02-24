@@ -25,7 +25,14 @@
         animi inventore sint laboriosam? Quae enim, aliquid fugit quasi ab ullam, quo porro. 
         Blanditiis debitis ducimus fugit voluptatum suscipit possimus, a, nobis iusto dignissimos hic optio excepturi minus, saepe repellendus! Quasi, deleniti, vero!</p>
 
-        <?php echo validation_errors(); ?>
+       
+        <?php 
+          if(validation_errors()){ ?>
+            <div class="alert alert-danger alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <?php echo validation_errors(); ?>
+            </div>
+        <?php } ?>
         <?php echo form_open('join',array('class'=>'form-control')) ?>
         <?php echo form_input($form['username']); ?>
         <?php echo form_input($form['password']); ?>
