@@ -25,8 +25,8 @@
         animi inventore sint laboriosam? Quae enim, aliquid fugit quasi ab ullam, quo porro. 
         Blanditiis debitis ducimus fugit voluptatum suscipit possimus, a, nobis iusto dignissimos hic optio excepturi minus, saepe repellendus! Quasi, deleniti, vero!</p>
 
-
-        <?php echo form_open('login/check',array('class'=>'form-control')) ?>
+        <?php echo validation_errors(); ?>
+        <?php echo form_open('join',array('class'=>'form-control')) ?>
         <?php echo form_input($form['username']); ?>
         <?php echo form_input($form['password']); ?>
         <?php echo form_input($form['passwordAgain']); ?>

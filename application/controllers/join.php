@@ -8,7 +8,7 @@ class Join extends CI_Controller{
 	public function __construct()
 	{
 		parent::__construct();
-	//	$this->load->model('');
+		$this->load->library('form_validation');
 	}
 
 		public function index(){
@@ -39,11 +39,19 @@ class Join extends CI_Controller{
               'placeholder' => 'email',
               'value' => '')
         );
-		
-		//Load view
-		$this->load->view('head',$data);
-		$this->load->view('join',$data);
-		$this->load->view('foot');
+        $this->form_validation->set_rules('username', 'Username', 'required');
+        $this->form_validation->set_rules('email', 'Email', 'required');
+		if ($this->form_validation->run() == FALSE){
+			//Load view
+			$this->load->view('head',$data);
+			$this->load->view('join',$data);
+			$this->load->view('foot');
+		}else{
+			//Load view
+			$this->load->view('head',$data);
+			$this->load->view('create_account',$data);
+			$this->load->view('foot');
+		}
 
 	}
 
