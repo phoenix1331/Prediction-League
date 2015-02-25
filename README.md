@@ -1,6 +1,4 @@
-<snippet>
-  <content><![CDATA[
-# ${1:Project Name}
+Prediction League
 
 TODO: Write a project description
 
@@ -35,10 +33,7 @@ TODO: Write license
 ## Main TODO List
 
 1. General
-..*Tidy file structure
-..*Create Admin
+  *Tidy file structure
+  *Create Admin
 
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>
 
