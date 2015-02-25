@@ -5,14 +5,6 @@
 </div>
 <div class="container main">
 
-     <?php 
-        if(!empty($message)){ ?>
-          <div class="alert alert-success alert-dismissible" role="alert">
-              <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-             <?php echo $message; ?>
-          </div>
-    <?php } ?>
-
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
        Sed rerum deleniti, quidem tempora quaerat ad quae porro doloribus molestiae, 
        ducimus nesciunt, sunt dolorum, laboriosam unde modi sint! Repudiandae, excepturi,
@@ -25,20 +17,6 @@
         animi inventore sint laboriosam? Quae enim, aliquid fugit quasi ab ullam, quo porro. 
         Blanditiis debitis ducimus fugit voluptatum suscipit possimus, a, nobis iusto dignissimos hic optio excepturi minus, saepe repellendus! Quasi, deleniti, vero!</p>
 
-       
-        <?php 
-          if(validation_errors()){ ?>
-            <div class="alert alert-danger alert-dismissible" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <?php echo validation_errors(); ?>
-            </div>
-        <?php } ?>
-        <?php echo form_open('thank_you',array('class'=>'form-control')) ?>
-        <?php echo form_input($form['username']); ?>
-        <?php echo form_input($form['password']); ?>
-        <?php echo form_input($form['passwordAgain']); ?>
-        <?php echo form_input($form['email']); ?>
-        <?php echo form_submit(array('name'=>'submit', 'class'=>'submit'), 'Submit'); ?>
-        <?php echo form_close(); ?>
+             
       </p>
 </div>
