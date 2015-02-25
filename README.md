@@ -33,7 +33,10 @@ TODO: Write license
 ## Main TODO List
 
 1. General
-*Tidy file structure
-*Create Admin
+   * Tidy file structure
+   * Create Admin
+2. Join
+   * Hash Password
+   * Default values on maintable entry creation
 
 
