@@ -26,7 +26,7 @@ class Join extends CI_Controller{
           'password' => array(
               'name' => 'password',
               'id' => 'password',
-              'placeholder' => 'Password',
+              'placeholder' => 'Password', 
               'value' => ''),
           'passwordAgain' => array(
               'name' => 'passwordAgain',

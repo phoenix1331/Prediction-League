@@ -118,6 +118,10 @@ form input:focus{
 	outline:2px solid #ffb510;
 }
 
+form .glyphicon{
+	display:none;
+}
+
 /*Table Style*/
 
 table.mainTable{
