@@ -118,8 +118,16 @@ form input:focus{
 	outline:2px solid #ffb510;
 }
 
-form .glyphicon{
+form .glyphicon-ok{
 	display:none;
+	color:#83e67d;
+	padding:22px 0 0 0;
+}
+
+form .glyphicon-remove{
+	display:none;
+	color:#cc535a;
+	padding:22px 0 0 0;
 }
 
 /*Table Style*/

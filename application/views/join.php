@@ -35,9 +35,15 @@
         <?php } ?>
         <?php echo form_open('thank_you',array('class'=>'form-control', 'name'=>'joinForm')) ?>
         <?php echo form_input($form['username']); ?>
+        <div class="input-group">
         <?php echo form_input($form['password']); ?>
-          <span class="glyphicon glyphicon-ok" aria-hidden="true"></span> 
-        <?php echo form_input($form['passwordAgain']); ?>
+        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+        </div>
+        <div class="input-group">
+          <?php echo form_input($form['passwordAgain']); ?>
+         <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+         <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+        </div>
         <?php echo form_input($form['email']); ?>
         <?php echo form_submit(array('name'=>'submit', 'class'=>'submit'), 'Submit'); ?>
         <?php echo form_close(); ?>

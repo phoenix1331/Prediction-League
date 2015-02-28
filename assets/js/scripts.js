@@ -14,10 +14,13 @@ function validate() {
      	//All is good - give a green outline
 	 	$("#passwordAgain").css('outline', '2px solid #83e67d');
 	 	$("#password").css('outline', '2px solid #83e67d');
-	 	$(".glyphicon").css('display', 'block');
+	 	$(".glyphicon-ok").css('display', 'block');
+	 	$(".glyphicon-remove").css('display', 'none');
 	 }else{
 	 	//All is bad - give a red outline
-	 	$("#passwordAgain").css('outline', '2px solid #f2dede');
+	 	$("#passwordAgain").css('outline', '2px solid #cc535a');
+	 	$(".glyphicon-remove").css('display', 'block');
+	 	$(".glyphicon-ok").css('display', 'none');
 	 }
     
 }
